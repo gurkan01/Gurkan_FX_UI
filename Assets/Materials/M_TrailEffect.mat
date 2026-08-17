@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: M_TrailEffect
   m_Shader: {fileID: -6465566751694194690, guid: 1983f096a5f05824e91282b8ae18f2b6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -107,7 +107,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _MinWith: -1
+    - _MinWith: 18.04
     - _NoiseScale: 10
     - _NoiseSpeed: 0
     - _NoiseStrength: 0.15
@@ -125,7 +125,8 @@ Material:
     - _StartFade: 1.56
     - _Surface: 0
     - _TextureTiling: 0.5
-    - _TextureUTiling: 1
+    - _TextureUTiling: 0.5
+    - _VOfset: 0.98
     - _VScale: 1
     - _WaveAmount: 0.03
     - _WaveDistance: 0
