@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0cdf07309a6c5c1478e87ce68d37429b
+guid: 1fdaaa7159f88e940baf2de08a3e5f5d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Lilita One
+  - Dinosaur
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
