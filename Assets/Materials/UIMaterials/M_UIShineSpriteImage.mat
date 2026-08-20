@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_UIBackground
-  m_Shader: {fileID: -6465566751694194690, guid: 7504979c67017ce439aa3195d5eb3173, type: 3}
+  m_Name: M_UIShineSpriteImage
+  m_Shader: {fileID: -6465566751694194690, guid: 1d7a401a0d107344a9470dbeb68ad006, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,15 +23,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseTexture:
-        m_Texture: {fileID: 2800000, guid: 0c3618ab53ef4134da7579071fcc7e62, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0c3618ab53ef4134da7579071fcc7e62, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -50,20 +42,19 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorMask: 15
-    - _Rotate: -0.3
-    - _Speed: -0.15
+    - _CycleTime: 4
+    - _Rotate: -0.6
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
+    - _Tiling: 4
     - _UIMaskSoftnessX: 1
     - _UIMaskSoftnessY: 1
+    - _speed: -6
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 1, g: 0.495283, b: 0.495283, a: 1}
-    - _ScrollSpeed: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 2.43, g: 1, b: 0, a: 0}
-    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
